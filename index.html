@@ -24,14 +24,16 @@
 
     <link rel="stylesheet" href="./assets//css/base.css" />
     <link rel="stylesheet" href="./assets//css/main.css" />
+    <link rel="stylesheet" href="./assets//css/grid.css" />
+    <link rel="stylesheet" href="./assets//css/responsive.css" />
     <title>Tiến Handsome</title>
   </head>
 
   <body>
     <div class="app">
       <header class="header">
-        <div class="grid">
-          <nav class="header-navbar">
+        <div class="grid wide">
+          <nav class="header-navbar hide-on-mobile-tablet">
             <ul class="header-navbar__list">
               <li
                 class="
@@ -172,7 +174,7 @@
             </ul>
           </nav>
           <div class="header-second">
-            <div class="header-logo">
+            <div class="header-logo hide-on-tablet">
               <a
                 href="
               "
@@ -403,7 +405,7 @@
         </div>
       </header>
       <div class="container">
-        <div class="grid">
+        <div class="grid wide">
           <div class="grid__row app-content">
             <div class="grid__column-2">
               <nav class="category">
@@ -427,7 +429,7 @@
               </nav>
             </div>
             <div class="grid__column-10">
-              <div class="sort-content">
+              <div class="sort-content hide-on-mobile-tablet">
                 <span class="sort-content__text">Sắp xếp theo</span>
                 <button class="btn sort-content__btn">Phổ biến</button>
                 <button class="btn sort-content__btn btn--primary">
@@ -1049,7 +1051,7 @@
         </div>
       </div>
       <footer class="footer">
-        <div class="grid">
+        <div class="grid wide">
           <div class="grid__row">
             <div class="grid__column-2-5">
               <h3 class="footer__heading">Chăm sóc khách hàng</h3>
@@ -1142,10 +1144,8 @@
           </div>
         </div>
         <div class="footer__bottom">
-          <div class="grid">
-            <p class="footer__est">
-              @ 2021 - Bản quyền thuộc về Công ty Tiến Handsome
-            </p>
+          <div class="grid wide">
+            <p class="footer__est">@ 2021 - Bản quyền thuộc về Tiến Handsome</p>
           </div>
         </div>
       </footer>
