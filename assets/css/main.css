@@ -1289,24 +1289,44 @@
   opacity: 0;
   transition: all linear 0.2s;
 }
+.header-navigation__top {
+  padding: 8px 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.header-navigation__user {
+  display: flex;
+}
+
+.header-navigation__user-image {
+  width: 45px;
+}
+
+.header-navigation__user-name {
+  color: #333;
+  font-size: 1.5rem;
+  position: relative;
+  top: 15px;
+  padding-left: 10px;
+}
 
 .header-navigation__list {
   list-style: none;
-  margin-top: 24px;
+  padding: 0 17px;
 }
 
 .header-navigation__link {
   color: black;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   display: block;
   padding: 13px 0;
+  font-weight: 350;
 }
 
 .header-navigation__close {
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: 15px;
   font-size: 3rem;
   color: #666;
   font-weight: 300;
